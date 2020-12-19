@@ -1,0 +1,104 @@
+html{
+    font-size: 1rem ;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 1.3rem;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem 1fr 3rem;
+    height: 100%;
+}
+
+header{
+    grid-area: 'header';
+    background-color: black;
+}
+main{
+    grid-area: 'main';
+    padding:1rem;
+}
+footer{
+    grid-area: 'footer';
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 1.8rem;
+    padding: 0.3rem 0rem;
+}
+h2{
+    font-size: 1.6rem;
+    padding: 0.1rem 0rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+header a {
+    color: white;
+    padding: 1rem;
+}
+
+a.brand{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row.centre{
+    justify-content: center;
+}
+
+img{
+    border-radius: 0.5rem;
+}
+
+img.medium{
+    max-width: 20rem;
+    width: 100%;
+}
+
+.card{
+    border: 0.1rem gray solid;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    margin : 1rem;
+}
+.cardbody{
+    padding: 1rem;
+}
+.cardbody > * {
+    margin-bottom: 0.5rem;
+}
+
+.price{
+color: #353535;
+font-weight: bold;
+}
+
+.rating span{
+    color:goldenrod;
+}

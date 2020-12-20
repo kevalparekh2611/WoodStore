@@ -46,7 +46,7 @@ h1{
 }
 h2{
   font-size: 1.6rem;
-  padding: 0.1rem 0rem;
+  padding: 0rem 0rem;
 }
 
 a{
@@ -106,4 +106,9 @@ font-weight: bold;
 
 .rating span{
   color:goldenrod;
+}
+
+.rating span:last-child{
+  color: grey;
+  font-size: 1rem;
 }

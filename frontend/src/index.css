@@ -166,6 +166,19 @@ font-weight: bold;
 .error{
   color: #a02020;
 }
+.alert{
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 00.5rem;
+}
+.alert-info{
+  color: darkblue;
+  background-color: lightsteelblue;
+}
+.alert-problem{
+  color: red;
+  background-color:thistle;
+}
 button.block{
   width: 100%;
 }

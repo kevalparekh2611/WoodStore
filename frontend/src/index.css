@@ -48,7 +48,10 @@ h2{
   font-size: 1.6rem;
   padding: 0rem 0rem;
 }
-
+p{
+  margin: 0rem;
+  padding-top: 0.5rem;
+}
 a{
   text-decoration: none;
 }
@@ -77,17 +80,26 @@ a.brand{
   font-weight: bold;
 }
 
+input,
+select,
+textarea,
 button {
   border: 0.1rem lightgrey solid;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.3rem;
   font-family: Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+button{
   background-color: lightgrey;
   cursor: pointer;
 }
+
+input :hover,
+select:hover,
 button:hover{
   border-color: grey;
 }
